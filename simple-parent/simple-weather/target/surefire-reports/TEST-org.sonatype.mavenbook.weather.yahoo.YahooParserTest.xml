@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.336" errors="0" skipped="0" tests="1" name="org.sonatype.mavenbook.weather.yahoo.YahooParserTest">
+  <properties>
+    <property name="BURN_AUTOPLAY" value="C:\Program Files (x86)\Roxio 2011\Roxio Burn\"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="PD_SOCKET" value="6874"/>
+    <property name="OSGI_INSTALL" value="-Dosgi.install.area=&quot;C:\Program Files (x86)\IBM\WebSphere\AppServer&quot;"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_45\jre"/>
+    <property name="TMPWASDIR" value="&quot;C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\temp\startServer.15222&quot;"/>
+    <property name="PROFILE_COMMAND_SDK" value="1.6_64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://ibm-vabors:9080/jenkins/"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_45\jre\lib\endorsed"/>
+    <property name="TSMPATH" value="C:\Program Files\ThinkPad\UltraNav Utility"/>
+    <property name="WAS_USER_SCRIPT_FILE_NOT_EXISTS" value="false"/>
+    <property name="PSModulePath" value="C:\windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="RCAUTOPLAY" value="C:\Program Files (x86)\Roxio 2011\Roxio Central\"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="AYUDAME_HOME" value="C:\Program Files (x86)\IBM Ayudame\"/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.6.0_45"/>
+    <property name="EMC_AUTOPLAY" value="C:\Program Files (x86)\Common Files\Roxio Shared\"/>
+    <property name="JOB_NAME" value="mini-test"/>
+    <property name="COMPUTERNAME" value="IBM-VABORS"/>
+    <property name="WAS_EXT_DIRS" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\java\lib;C:\Program Files (x86)\IBM\WebSphere\AppServer\classes;C:\Program Files (x86)\IBM\WebSphere\AppServer\lib;C:\Program Files (x86)\IBM\WebSphere\AppServer\installedChannels;C:\Program Files (x86)\IBM\WebSphere\AppServer\lib\ext;C:\Program Files (x86)\IBM\WebSphere\AppServer\web\help;C:\Program Files (x86)\IBM\WebSphere\AppServer\deploytool\itp\plugins\com.ibm.etools.ejbdeploy\runtime"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="CUR_DIR" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\bin"/>
+    <property name="user.name" value="IBM-VABORS$"/>
+    <property name="JAVA_NATIVE_LIB_DIR" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\lib\native\win\x86_64"/>
+    <property name="DEFAULT_PROFILE_SCRIPT" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\properties\fsdb\_was_profile_default\default.bat"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\windows"/>
+    <property name="WAS_LOGGING" value="-Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Djava.util.logging.configureByServer=true"/>
+    <property name="ACPath" value="C:\Program Files (x86)\Lenovo\Access Connections\"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\windows\system32\config\systemprofile\AppData\Local"/>
+    <property name="CLIENTIPC" value="-Dcom.ibm.IPC.ConfigURL=file:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01/properties/ipc.client.props"/>
+    <property name="user.timezone" value="Europe/Athens"/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-mini-test-1"/>
+    <property name="OSGI_CFG" value="-Dosgi.configuration.area=&quot;C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01&quot;\configuration"/>
+    <property name="COMMAND_DEFAULT_SDK" value="1.6_64"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="CONFIG_ROOT" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\config"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Program Files\apache-maven-3.1.0 C:\jenkins\jenkins_war.ear\jenkins.war\WEB-INF\lib\remoting-2.32.jar C:\windows\system32\config\systemprofile\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.4.jar C:\windows\system32\config\systemprofile\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.4.jar 61857"/>
+    <property name="HUDSON_URL" value="http://ibm-vabors:9080/jenkins/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="42e8f959f8e40d0c"/>
+    <property name="USER_INSTALL_ROOT" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="Path" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\lib\native\win\x86_64;C:\Program Files (x86)\IBM\WebSphere\AppServer\bin;C:\Program Files (x86)\IBM\WebSphere\AppServer\java\bin;C:\Program Files (x86)\IBM\WebSphere\AppServer\java\jre\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\IBM\Infoprint Select;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files (x86)\IBM\Personal Communications\;C:\Program Files (x86)\IBM\Trace Facility\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\13.0\DLLShared\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Vodafone\Vodafone Mobile Broadband\Optimization Client\;"/>
+    <property name="WAS_HOME" value="C:\Program Files (x86)\IBM\WebSphere\AppServer"/>
+    <property name="CLIENTSAS" value="-Dcom.ibm.CORBA.ConfigURL=file:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01/properties/sas.client.props"/>
+    <property name="java.io.tmpdir" value="C:\windows\TEMP\"/>
+    <property name="APPDATA" value="C:\windows\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="WAS_NODE" value="IBM-VABorsNode01"/>
+    <property name="line.separator" value="
+"/>
+    <property name="USER_INSTALL_PROP" value="&quot;-Duser.install.root=C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01&quot;"/>
+    <property name="BUILD_URL" value="http://ibm-vabors:9080/jenkins/job/mini-test/1/"/>
+    <property name="M2_HOME" value="C:\Program Files\apache-maven-3.1.0"/>
+    <property name="COMMAND_SDK" value="1.6_64"/>
+    <property name="WAS_CELL" value="IBM-VABorsNode01Cell"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="WAS_USER_SCRIPT" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\bin\setupCmdLine.bat"/>
+    <property name="DEFAULT_PROFILE_REGISTRY_LOC" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\properties\profileRegistry.xml"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="TMPPROP" value="C:\\Program Files (x86)\\IBM\\WebSphere\\AppServer\\java\\lib;C:\\Program Files (x86)\\IBM\\WebSphere\\AppServer\\classes;C:\\Program Files (x86)\\IBM\\WebSphere\\AppServer\\lib;C:\\Program Files (x86)\\IBM\\WebSphere\\AppServer\\installedChannels;C:\\Program Files (x86)\\IBM\\WebSphere\\AppServer\\lib\\ext;C:\\Program Files (x86)\\IBM\\WebSphere\\AppServer\\web\\help;C:\\Program Files (x86)\\IBM\\WebSphere\\AppServer\\deploytool\\itp\\plugins\\com.ibm.etools.ejbdeploy\\runtime"/>
+    <property name="HUDSON_SERVER_COOKIE" value="42e8f959f8e40d0c"/>
+    <property name="MAVEN_HOME" value="C:\Program Files\apache-maven-3.1.0"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\windows\system32\config\systemprofile\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.4.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="CLIENT_CONNECTOR_INSTALL_ROOT" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedConnectors"/>
+    <property name="PROFILE_ERROR" value="0"/>
+    <property name="JAASSOAP" value="-Djava.security.auth.login.config=C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01/properties/wsjaas_client.conf"/>
+    <property name="INV_PRF_SPECIFIED" value="false"/>
+    <property name="TMPJAVAPROPFILE" value="&quot;C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\temp\startServer.15222\startServer.properties&quot;"/>
+    <property name="NO_DFT_PRF_EXISTS" value="false"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="CMD_NAME" value="startServer.bat"/>
+    <property name="maven3.interceptor" value="C:\windows\system32\config\systemprofile\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.4.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_45\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\apache-maven-3.1.0/bin;C:\Program Files\Java\jdk1.6.0_45/bin;C:\Program Files (x86)\IBM\WebSphere\AppServer\lib\native\win\x86_64;C:\Program Files (x86)\IBM\WebSphere\AppServer\bin;C:\Program Files (x86)\IBM\WebSphere\AppServer\java\bin;C:\Program Files (x86)\IBM\WebSphere\AppServer\java\jre\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\IBM\Infoprint Select;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files (x86)\IBM\Personal Communications\;C:\Program Files (x86)\IBM\Trace Facility\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\13.0\DLLShared\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Vodafone\Vodafone Mobile Broadband\Optimization Client\;;."/>
+    <property name="DERBY_HOME" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\derby"/>
+    <property name="CLIENTSOAP" value="-Dcom.ibm.SOAP.ConfigURL=file:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01/properties/soap.client.props"/>
+    <property name="WAS_CLASSPATH" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\properties;C:\Program Files (x86)\IBM\WebSphere\AppServer\properties;C:\Program Files (x86)\IBM\WebSphere\AppServer\lib\startup.jar;C:\Program Files (x86)\IBM\WebSphere\AppServer\lib\bootstrap.jar;C:\Program Files (x86)\IBM\WebSphere\AppServer\java\lib\tools.jar;C:\Program Files (x86)\IBM\WebSphere\AppServer/lib/lmproxy.jar;C:\Program Files (x86)\IBM\WebSphere\AppServer/lib/urlprotocols.jar"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="FFDCLOG" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01/logs/ffdc/"/>
+    <property name="JOB_URL" value="http://ibm-vabors:9080/jenkins/job/mini-test/"/>
+    <property name="WAS_PATH" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\lib\native\win\x86_64;C:\Program Files (x86)\IBM\WebSphere\AppServer\bin;C:\Program Files (x86)\IBM\WebSphere\AppServer\java\bin;C:\Program Files (x86)\IBM\WebSphere\AppServer\java\jre\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\IBM\Infoprint Select;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files (x86)\IBM\Personal Communications\;C:\Program Files (x86)\IBM\Trace Facility\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\13.0\DLLShared\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Vodafone\Vodafone Mobile Broadband\Optimization Client\;"/>
+    <property name="JENKINS_HOME" value="C:\windows\system32\config\systemprofile\.jenkins"/>
+    <property name="IBM_JAVA_COMMAND_LINE" value="C:\Program Files (x86)\IBM\WebSphere\AppServer/java/bin/java -Declipse.security -Dwas.status.socket=61798 -Dosgi.install.area=C:\Program Files (x86)\IBM\WebSphere\AppServer -Dosgi.configuration.area=C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01/servers/server1/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.6_64,nonFatal -Dsun.reflect.inflationThreshold=250 -Xbootclasspath/p:C:\Program Files (x86)\IBM\WebSphere\AppServer/java/jre/lib/ibmorb.jar -classpath C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01/properties;C:\Program Files (x86)\IBM\WebSphere\AppServer/properties;C:\Program Files (x86)\IBM\WebSphere\AppServer/lib/startup.jar;C:\Program Files (x86)\IBM\WebSphere\AppServer/lib/bootstrap.jar;C:\Program Files (x86)\IBM\WebSphere\AppServer/lib/jsf-nls.jar;C:\Program Files (x86)\IBM\WebSphere\AppServer/lib/lmproxy.jar;C:\Program Files (x86)\IBM\WebSphere\AppServer/lib/urlprotocols.jar;C:\Program Files (x86)\IBM\WebSphere\AppServer/deploytool/itp/batchboot.jar;C:\Program Files (x86)\IBM\WebSphere\AppServer/deploytool/itp/batch2.jar;C:\Program Files (x86)\IBM\WebSphere\AppServer/java/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xcompressedrefs -Xscmaxaot4M -Xscmx60M -Dws.ext.dirs=C:\Program Files (x86)\IBM\WebSphere\AppServer/java/lib;C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01/classes;C:\Program Files (x86)\IBM\WebSphere\AppServer/classes;C:\Program Files (x86)\IBM\WebSphere\AppServer/lib;C:\Program Files (x86)\IBM\WebSphere\AppServer/installedChannels;C:\Program Files (x86)\IBM\WebSphere\AppServer/lib/ext;C:\Program Files (x86)\IBM\WebSphere\AppServer/web/help;C:\Program Files (x86)\IBM\WebSphere\AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=C:\Program Files (x86)\IBM\WebSphere\AppServer/derby -Dcom.ibm.itp.location=C:\Program Files (x86)\IBM\WebSphere\AppServer/bin -Djava.util.logging.configureByServer=true -Duser.install.root=C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01 -Djava.ext.dirs=C:\Program Files (x86)\IBM\WebSphere\AppServer/tivoli/tam;C:\Program Files (x86)\IBM\WebSphere\AppServer/java/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01/temp/cachedir -Dwas.install.root=C:\Program Files (x86)\IBM\WebSphere\AppServer -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01 -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.library.path=C:\Program Files (x86)\IBM\WebSphere\AppServer/lib/native/win/x86_64/;C:\Program Files (x86)\IBM\WebSphere\AppServer\java\jre\bin\compressedrefs;C:\Program Files (x86)\IBM\WebSphere\AppServer\java\jre\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\IBM\WebSphere\AppServer\lib\native\win\x86_64;C:\Program Files (x86)\IBM\WebSphere\AppServer\bin;C:\Program Files (x86)\IBM\WebSphere\AppServer\java\bin;C:\Program Files (x86)\IBM\WebSphere\AppServer\java\jre\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\IBM\Infoprint Select;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files (x86)\IBM\Personal Communications\;C:\Program Files (x86)\IBM\Trace Facility\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\13.0\DLLShared\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Vodafone\Vodafone Mobile Broadband\Optimization Client\;.; -Djava.endorsed.dirs=C:\Program Files (x86)\IBM\WebSphere\AppServer/endorsed_apis;C:\Program Files (x86)\IBM\WebSphere\AppServer/java/jre/lib/endorsed;C:\Program Files (x86)\IBM\WebSphere\AppServer\endorsed_apis;C:\Program Files (x86)\IBM\WebSphere\AppServer\java\jre\lib\endorsed -Djava.security.auth.login.config=C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01/properties/wsjaas.conf -Djava.security.policy=C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\config IBM-VABorsNode01Cell IBM-VABorsNode01 server1"/>
+    <property name="BUILD_ID" value="2013-08-29_22-05-15"/>
+    <property name="TEMP" value="C:\windows\TEMP"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_45\jre\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="3a09"/>
+    <property name="HUDSON_HOME" value="C:\windows\system32\config\systemprofile\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Program Files\apache-maven-3.1.0/bin"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.6.0_45"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="IBM_JAVA_SYSLOG_NAME" value="IBM Java 6"/>
+    <property name="FSDB_PATH" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\properties\fsdb"/>
+    <property name="USERPROFILE" value="C:\windows\system32\config\systemprofile"/>
+    <property name="PDBASE" value="C:\Program Files\IBM\Infoprint Select"/>
+    <property name="asl.log" value="Destination=file"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_45\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\"/>
+    <property name="USERNAME" value="IBM-VABORS$"/>
+    <property name="PROFILE_REGISTRY_LOC" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\properties\fsdb"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="JAVA_EXE" value="&quot;C:\Program Files (x86)\IBM\WebSphere\AppServer\java\bin\java&quot;"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="ITP_LOC" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\deploytool\itp"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="COMMPath" value="C:\Program Files\Lenovo\Communications Utility"/>
+    <property name="user.dir" value="C:\Users\IBM_ADMIN\ch-multi-spring"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\windows\TEMP"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="PCOMM_Root" value="C:\Program Files (x86)\IBM\Personal Communications\"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="20.45-b01"/>
+    <property name="java.class.path" value="C:\windows\system32\config\systemprofile\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.4.jar;C:\Program Files\apache-maven-3.1.0\boot\plexus-classworlds-2.4.2.jar;C:\Program Files\apache-maven-3.1.0/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
+    <property name="WORKSPACE" value="C:\windows\system32\config\systemprofile\.jenkins\workspace\mini-test"/>
+    <property name="CLIENTSSL" value="-Dcom.ibm.SSL.ConfigURL=file:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01/properties/ssl.client.props"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="SystemRoot" value="C:\windows"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.6.0_45-b06"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_45\jre\classes"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="CMD_NAME_ONLY" value="startServer"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.6.0_45/bin"/>
+    <property name="user.country" value="US"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.1.0"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="WAS_ENDORSED_DIRS" value="C:\Program Files (x86)\IBM\WebSphere\AppServer\endorsed_apis;C:\Program Files (x86)\IBM\WebSphere\AppServer\java\jre\lib\endorsed"/>
+    <property name="QTJAVA" value="C:\Program Files (x86)\IBM\Java60\jre\lib\ext\QTJava.zip"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase time="0.336" classname="org.sonatype.mavenbook.weather.yahoo.YahooParserTest" name="testParser"/>
+</testsuite>
